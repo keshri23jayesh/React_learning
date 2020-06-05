@@ -2,3 +2,4 @@
 ./seasons/node_modules/*
 ./pics/pics/node_modules/*
 ./videos/node_modules/*
+./calculator/node_modules/*
