@@ -6,29 +6,29 @@ class SelectionComponent extends React.Component
     render() {
         return(
             <div className="grid-container">
-                <ButtonComp symbool={"AC"}/>
-                <ButtonComp symbool={"+/-"}/>
-                <ButtonComp symbool={"%"}/>
-                <ButtonComp symbool={"/"}/>
+                <ButtonComp symbool={"AC"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"+/-"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"%"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"/"} onbuttonClicked={this.props.onbuttonClicked} />
 
-                <ButtonComp symbool={"7"}/>
-                <ButtonComp symbool={"8"}/>
-                <ButtonComp symbool={"9"}/>
-                <ButtonComp symbool={"*"}/>
+                <ButtonComp symbool={"7"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"8"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"9"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"*"} onbuttonClicked={this.props.onbuttonClicked} />
 
-                <ButtonComp symbool={"4"}/>
-                <ButtonComp symbool={"5"}/>
-                <ButtonComp symbool={"6"}/>
-                <ButtonComp symbool={"-"}/>
+                <ButtonComp symbool={"4"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"5"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"6"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"-"} onbuttonClicked={this.props.onbuttonClicked} />
 
-                <ButtonComp symbool={"1"}/>
-                <ButtonComp symbool={"2"}/>
-                <ButtonComp symbool={"3"}/>
-                <ButtonComp symbool={"+"}/>
+                <ButtonComp symbool={"1"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"2"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"3"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"+"} onbuttonClicked={this.props.onbuttonClicked} />
 
-                <ButtonComp symbool={"0"}/>
-                <ButtonComp symbool={"."}/>
-                <ButtonComp symbool={"="}/>
+                <ButtonComp symbool={"0"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"."} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"="} onbuttonClicked={this.props.onbuttonClicked} />
             </div>
         );
     }

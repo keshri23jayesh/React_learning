@@ -23,27 +23,27 @@ class ButtonComp extends React.Component {
 
     getbuttonType = (symbool) => {
         if (this.operators.includes(symbool)){
-            console.log(symbool +'operator');
+            // console.log(symbool +'operator');
             return 'operator';
         }  
         if (this.operand.includes(symbool)){
-            console.log(symbool +'operand');
+            // console.log(symbool +'operand');
             return 'operand';
         }
         if (symbool === '0') {
-            console.log(symbool +'zero');
+            // console.log(symbool +'zero');
             return 'zero';
         }
     }
 
-    
     season = this.getbuttonType(this.props.symbool);
     bgcolor = this.buttonConfig[this.season];
 
     render() {
         return(
-            <div className={this.bgcolor.className}>
-                {this.props.symbool}
+            <div onClick={() => this.props.onbuttonClicked(this.props.symbool)}
+                 className={this.bgcolor.className}>
+                 {this.props.symbool}
             </div>
         );
     }

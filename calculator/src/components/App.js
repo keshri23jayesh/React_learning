@@ -4,11 +4,17 @@ import SelectionComponent from './SelectionComponent';
 
 class App extends React.Component {
 
+    state = {input: ''};
+    
+    onbuttonClicked = (input) => {
+        this.setState({input: input});
+    }
+
     render() {
         return(
             <div>
-                <InputComponent />
-                <SelectionComponent />
+                <InputComponent input={this.state.input} />
+                <SelectionComponent onbuttonClicked={this.onbuttonClicked} />
             </div>
         );
     }
