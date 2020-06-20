@@ -9,12 +9,12 @@ class SelectionComponent extends React.Component
                 <ButtonComp symbool={"AC"} onbuttonClicked={this.props.onbuttonClicked} />
                 <ButtonComp symbool={"+/-"} onbuttonClicked={this.props.onbuttonClicked} />
                 <ButtonComp symbool={"%"} onbuttonClicked={this.props.onbuttonClicked} />
-                <ButtonComp symbool={"/"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"÷"} onbuttonClicked={this.props.onbuttonClicked} />
 
                 <ButtonComp symbool={"7"} onbuttonClicked={this.props.onbuttonClicked} />
                 <ButtonComp symbool={"8"} onbuttonClicked={this.props.onbuttonClicked} />
                 <ButtonComp symbool={"9"} onbuttonClicked={this.props.onbuttonClicked} />
-                <ButtonComp symbool={"*"} onbuttonClicked={this.props.onbuttonClicked} />
+                <ButtonComp symbool={"x"} onbuttonClicked={this.props.onbuttonClicked} />
 
                 <ButtonComp symbool={"4"} onbuttonClicked={this.props.onbuttonClicked} />
                 <ButtonComp symbool={"5"} onbuttonClicked={this.props.onbuttonClicked} />
